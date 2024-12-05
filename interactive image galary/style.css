@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(13, 13, 19);
+}
+
+header {
+    color: tomato;
+}
+
+main {
+    color: rgb(255, 164, 80);
+}
+
+footer {
+    color: wheat;
+    position: static;
+    clear: both;
+}
+
+#email {
+    color: aqua;
+}
+
+#navbar {
+    background-color: gray
+}
+
+.galary {
+    display: inline-block;
+    width: 100%;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.galary img {
+    border: 2px yellow solid;
+    margin: 4px;
+    width: 31.6%;
+    height: 15em;
+}
+
+@media screen and (max-width:680px) {
+    .galary img {
+        width: 200px;
+        display: block;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .galary img {
+        height: 35em;
+    }
+}

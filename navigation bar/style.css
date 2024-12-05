@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(13, 13, 19);
+}
+
+header {
+    color: tomato;
+}
+
+main {
+    color: rgb(255, 164, 80);
+}
+
+footer {
+    color: wheat;
+    position: static;
+}
+
+#email {
+    color: aqua;
+}
+
+a {
+    color: rgb(117, 255, 117);
+}
+
+.active {
+    background-color: gray;
+}
+
+
+#list a {
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    float: left;
+
+
+}
+
+.navbar a:hover:not(.active) {
+    background-color: rgb(133, 98, 58);
+}
+
+h1 {
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: rgb(97, 70, 35);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+/*
+The navbar and this code does the same (remove the pointer) 
+#list li::marker {
+    content: "";
+}
+*/

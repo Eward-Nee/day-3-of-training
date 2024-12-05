@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(13, 13, 19);
+}
+
+header {
+    color: tomato;
+}
+
+main {
+    color: rgb(255, 164, 80);
+}
+
+footer {
+    color: wheat;
+    position: static;
+}
+
+#email {
+    color: aqua;
+}
+
+.Dropdownmenu {
+    display: inline-block;
+}
+
+
+.Dropdownmenu button {
+    background-color: rgb(245, 227, 156);
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    /*top side*/
+    font-size: 1.5em;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.Dropdownmenu a {
+    display: block;
+    color: rgb(17, 37, 0);
+    text-decoration: none;
+    padding: 5px 0px;
+    /*top side*/
+
+}
+
+.Dropdownmenu:hover .content {
+    display: block;
+}
+
+.Dropdownmenu:hover button {
+    background-color: rgb(253, 188, 67);
+}
+
+.Dropdownmenu a:hover {
+    background-color: aqua;
+}
+
+.Dropdownmenu .content {
+    display: none;
+    background-color: rgb(238, 238, 238);
+    position: absolute;
+    left: 20px;
+    border-radius: 10px;
+    min-width: 95px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 4px 4px 5px rgba(255, 255, 255, 0.76);
+}

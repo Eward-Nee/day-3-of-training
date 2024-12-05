@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(13, 13, 19);
+}
+
+header {
+    color: tomato;
+}
+
+main {
+    color: rgb(255, 164, 80);
+}
+
+footer {
+    color: wheat;
+    position: static;
+}
+
+.Pagination a {
+    color: rgb(181, 201, 0);
+    text-decoration: none;
+    padding: 10px
+        /*height*/
+        20px
+        /*width*/
+    ;
+    display: inline-block;
+    /*Need to be inline-block to be able to work with height and width in padding*/
+    /*text-decoration: is the underlining;*/
+}
+
+.Pagination a:hover:not(.active) {
+    color: rgb(0, 26, 255);
+    background-color: azure;
+}
+
+#email {
+    color: aqua;
+}
+
+.Pagination {
+    text-align: center;
+}
+
+.Pagination a.active {
+    background-color: rgb(221, 160, 69);
+    color: black;
+}

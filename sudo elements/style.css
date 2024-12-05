@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(13, 13, 19);
+}
+
+header {
+    color: tomato;
+}
+
+main {
+    color: rgb(255, 164, 80);
+}
+
+footer {
+    color: wheat;
+    position: static;
+}
+
+#email {
+    color: aqua;
+}
+
+/*Pseudo-element incoming!*/
+
+h3::first-letter {
+    color: aquamarine;
+    background-color: blueviolet;
+    font-size: 30px;
+}
+
+#par::first-line {
+    background-color: rgb(87, 7, 7);
+}
+
+#par::selection {
+    background-color: black;
+    color: rgb(138, 255, 138);
+}
+
+/*tags names in css is called selectors.*/
+
+#fruit li::before {
+    content: "✔️ ";
+}
+
+#apple::after {
+    content: " 🍏";
+}
+
+#orange::after {
+    content: " 🍊";
+}
+
+#banana::after {
+    content: " 🍌";
+}
+
+#fruit li::marker {
+    content: "--> ";
+    color: rgb(30, 255, 0);
+    font-size: 1.2em;
+}
